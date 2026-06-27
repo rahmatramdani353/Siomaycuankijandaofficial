@@ -1,0 +1,1162 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Siomay Cuanki Janda - Produsen & Distributor Siomay Cuanki Berkualitas Tinggi. Rasa Juara, Harga Bersahabat, Cocok untuk Usaha dan Keluarga. Hubungi kami sekarang!">
+    <title>Siomay Cuanki Janda - Produsen & Distributor Siomay Cuanki Premium</title>
+    
+    <!-- Google Fonts: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom Tailwind Configuration for Theme Colors (Biru, Merah, Putih) -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            blue: '#1E40AF', /* Biru Premium / Royal Blue */
+                            'blue-light': '#3B82F6',
+                            'blue-dark': '#1E3A8A',
+                            red: '#DC2626', /* Merah Bold / Crimson Red */
+                            'red-light': '#EF4444',
+                            'red-dark': '#991B1B',
+                            slate: '#0F172A', /* Slate Gelap untuk Kontras Teks */
+                            light: '#F8FAFC' /* Putih Bersih / Light Gray */
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Custom Premium CSS Effects for Light Mode */
+        .glassmorphism {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(30, 64, 175, 0.1);
+        }
+        .text-gradient-premium {
+            background: linear-gradient(135deg, #1E40AF 0%, #DC2626 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .bg-gradient-premium {
+            background: linear-gradient(135deg, #1E40AF 0%, #1E3A8A 100%);
+        }
+        .bg-gradient-accent {
+            background: linear-gradient(135deg, #DC2626 0%, #EF4444 100%);
+        }
+        .blue-border-glow {
+            box-shadow: 0 10px 30px rgba(30, 64, 175, 0.08);
+            border: 1px solid rgba(30, 64, 175, 0.15);
+        }
+        .hover-premium-glow:hover {
+            box-shadow: 0 15px 35px rgba(220, 38, 38, 0.15);
+            transform: translateY(-2px);
+            transition: all 0.3s ease;
+        }
+        @keyframes pulse-slow {
+            0%, 100% { transform: scale(1); opacity: 0.95; }
+            50% { transform: scale(1.03); opacity: 1; }
+        }
+        .animate-pulse-slow {
+            animation: pulse-slow 3s infinite ease-in-out;
+        }
+    </style>
+</head>
+<body class="bg-white text-brand-slate font-sans antialiased overflow-x-hidden">
+
+    <!-- TOP NAVIGATION BAR -->
+    <header class="sticky top-0 z-50 bg-white/95 border-b border-slate-100 backdrop-blur-md transition-all duration-300 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <!-- Brand JPG Logo Container -->
+                <div class="w-12 h-12 rounded-xl overflow-hidden shadow-md border-2 border-brand-red flex items-center justify-center bg-brand-light">
+                    <img id="logo-img" src="https://cdn.phototourl.com/free/2026-06-26-b482edef-6503-4c0f-9649-36f82ab9be3a.png" alt="Logo Siomay Cuanki Janda" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/120x120/1E40AF/FFFFFF.jpg?text=SCJ'">
+                </div>
+                <div>
+                    <span class="text-xl font-extrabold tracking-wider text-brand-blue block">SIOMAY CUANKI <span class="text-brand-red">JANDA</span></span>
+                    <span class="text-[10px] text-slate-500 tracking-widest uppercase block -mt-1 font-semibold">Premium Quality Supplier</span>
+                </div>
+            </div>
+            
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+                <a href="#masalah" class="hover:text-brand-red transition">Masalah Supplier</a>
+                <a href="#keunggulan" class="hover:text-brand-blue transition">Mengapa Kami</a>
+                <a href="#produk" class="hover:text-brand-blue transition">Katalog Produk</a>
+                <a href="#testimoni" class="hover:text-brand-blue transition">Kisah Sukses</a>
+                <a href="#marketplace" class="hover:text-brand-blue transition">Marketplace</a>
+                <a href="#faq" class="hover:text-brand-blue transition">FAQ</a>
+            </nav>
+            
+            <div class="hidden lg:block">
+                <a href="https://wa.me/62895332494484" target="_blank" rel="noopener" class="bg-brand-blue hover:bg-brand-blue-dark text-white text-xs font-bold px-5 py-3 rounded-full flex items-center gap-2 hover-premium-glow transition-all">
+                    <img src="https://placehold.co/40x40/FFFFFF/1E40AF.jpg?text=WA" class="w-4 h-4 rounded-full" alt="Icon Call" onerror="this.style.display='none'">
+                    KONSULTASI GRATIS
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECTION 1: HERO SECTION (PAS - Problem, Agitation, Solution) -->
+    <section id="hero" class="relative min-h-[90vh] bg-slate-50 flex items-center pt-8 pb-16 overflow-hidden">
+        <!-- Abstract background blobs for modern light layout -->
+        <div class="absolute top-1/4 left-0 w-96 h-96 bg-brand-blue/5 rounded-full blur-[120px] pointer-events-none"></div>
+        <div class="absolute bottom-10 right-0 w-96 h-96 bg-brand-red/5 rounded-full blur-[150px] pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left Content: PAS Framework Copywriting -->
+                <div class="lg:col-span-7 space-y-8 text-center lg:text-left">
+                    
+                    <!-- Premium Badge -->
+                    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand-blue/10 border border-brand-blue/20 text-xs text-brand-blue font-semibold uppercase tracking-wider mx-auto lg:mx-0">
+                        <img src="https://placehold.co/40x40/1E40AF/FFFFFF.jpg?text=%E2%98%85" class="w-3.5 h-3.5 rounded-full" alt="Badge Icon">
+                        PRODUSEN & DISTRIBUTOR UTAMA INDONESIA
+                    </div>
+
+                    <!-- Problem Headline -->
+                    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black text-brand-slate leading-tight">
+                        Masih Bingung Cari Supplier Siomay dan Cuanki yang <span class="text-gradient-premium">Enak, Konsisten, dan Menguntungkan?</span>
+                    </h1>
+
+                    <!-- Agitation (Rasa Sakit Calon Pelanggan) -->
+                    <div class="space-y-3 bg-red-50 p-5 rounded-2xl border border-brand-red/20 max-w-2xl mx-auto lg:mx-0 text-left shadow-sm">
+                        <p class="text-brand-red font-bold text-sm flex items-center gap-2">
+                            <img src="https://placehold.co/40x40/DC2626/FFFFFF.jpg?text=%E2%9A%A0" class="w-4 h-4 rounded-full" alt="Warning Icon">
+                            Apakah Anda sering mengalami masalah fatal ini?
+                        </p>
+                        <ul class="space-y-2 text-xs sm:text-sm text-slate-700">
+                            <li class="flex items-start gap-2">
+                                <img src="https://placehold.co/40x40/DC2626/FFFFFF.jpg?text=X" class="w-4 h-4 rounded-full shrink-0 mt-0.5" alt="X Icon">
+                                <span>Sudah ganti supplier berkali-kali tapi rasa tidak pernah konsisten.</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <img src="https://placehold.co/40x40/DC2626/FFFFFF.jpg?text=X" class="w-4 h-4 rounded-full shrink-0 mt-0.5" alt="X Icon">
+                                <span>Kualitas produk sering berubah secara mendadak saat permintaan naik.</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <img src="https://placehold.co/40x40/DC2626/FFFFFF.jpg?text=X" class="w-4 h-4 rounded-full shrink-0 mt-0.5" alt="X Icon">
+                                <span>Pelanggan akhir Anda mulai komplain rasa hambar dan tidak gurih.</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <img src="https://placehold.co/40x40/DC2626/FFFFFF.jpg?text=X" class="w-4 h-4 rounded-full shrink-0 mt-0.5" alt="X Icon">
+                                <span>Harga supplier terlalu mahal membuat margin keuntungan Anda tipis.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Solution (Introducing Brand) -->
+                    <div class="space-y-4">
+                        <p class="text-lg text-slate-600">
+                            Hentikan kerugian finansial dan hilangnya pelanggan setia Anda! <br class="hidden sm:inline">
+                            Memperkenalkan <strong class="text-brand-blue">SIOMAY CUANKI JANDA</strong>, solusi satu pintu untuk pasokan siomay dan cuanki premium dengan rasa istimewa yang dijamin bikin pembeli ketagihan dan repeat order melonjak!
+                        </p>
+                        <p class="text-sm text-brand-red font-bold italic">
+                            "Rasa Juara, Harga Bersahabat, Cocok Untuk Usaha dan Keluarga"
+                        </p>
+                    </div>
+
+                    <!-- CTA Buttons -->
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+                        <a href="https://wa.me/62895332494484" target="_blank" rel="noopener" class="w-full sm:w-auto bg-gradient-accent text-white font-extrabold text-base px-8 py-4.5 rounded-xl shadow-lg shadow-brand-red/20 flex items-center justify-center gap-3 hover-premium-glow uppercase tracking-wider transition-all duration-300">
+                            <img src="https://placehold.co/40x40/FFFFFF/DC2626.jpg?text=WA" class="w-6 h-6 rounded-full" alt="WhatsApp Icon">
+                            Pesan Sekarang Via WhatsApp
+                        </a>
+                        <a href="#produk" class="w-full sm:w-auto bg-white hover:bg-slate-100 text-brand-slate font-bold text-sm px-6 py-4 rounded-xl border border-slate-300 transition-all text-center shadow-sm">
+                            Lihat Katalog Produk
+                        </a>
+                    </div>
+
+                    <!-- Trust Stats Bar -->
+                    <div class="grid grid-cols-3 gap-4 pt-6 border-t border-slate-200 max-w-lg mx-auto lg:mx-0">
+                        <div class="text-center lg:text-left">
+                            <span class="block text-2xl sm:text-3xl font-extrabold text-brand-blue">100%</span>
+                            <span class="block text-[11px] text-slate-500 font-semibold uppercase">Bahan Pilihan</span>
+                        </div>
+                        <div class="text-center lg:text-left border-x border-slate-200 px-4">
+                            <span class="block text-2xl sm:text-3xl font-extrabold text-brand-blue">1.000+</span>
+                            <span class="block text-[11px] text-slate-500 font-semibold uppercase">Mitra Aktif</span>
+                        </div>
+                        <div class="text-center lg:text-left">
+                            <span class="block text-2xl sm:text-3xl font-extrabold text-brand-blue">Tiap Hari</span>
+                            <span class="block text-[11px] text-slate-500 font-semibold uppercase">Produksi Segar</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Right Side: Portrait Image Frame (Rasio 3:4) -->
+                <div class="lg:col-span-5 relative mt-8 lg:mt-0">
+                    <div class="relative mx-auto max-w-sm">
+                        <!-- Decorative background highlight -->
+                        <div class="absolute -inset-2 bg-gradient-to-r from-brand-blue to-brand-red rounded-3xl blur opacity-15"></div>
+                        
+                        <!-- Portrait Image Container with White Borders and Strong Shadow -->
+                        <div class="relative bg-white border-4 border-white rounded-3xl overflow-hidden shadow-2xl aspect-[3/4] hover:scale-105 transition-all duration-500">
+                            <img src="https://cdn.phototourl.com/free/2026-06-26-765734f3-2841-4f37-bd8c-4065165aed2f.jpg" alt="Siomay Cuanki Janda Portrait" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/600x800/1E40AF/FFFFFF.jpg?text=Siomay+Cuanki+Janda'">
+                            
+                            <!-- Overlay Content on Image -->
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex flex-col justify-end p-6">
+                                <div class="flex justify-between items-center mb-2">
+                                    <span class="bg-brand-red text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Terlaris #1</span>
+                                    <span class="bg-black/60 text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase border border-white/20 flex items-center gap-1">
+                                        Halal MUI
+                                    </span>
+                                </div>
+                                <h4 class="text-xl font-bold text-white tracking-wide">Rasa Gurih Otentik</h4>
+                                <p class="text-xs text-brand-light/90 mt-1">Dibuat dari Olahan Ikan Pilihan Segar Setiap Hari</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: THE PASTOR FRAMEWORK -->
+    <!-- P = PROBLEM & A = AMPLIFY SECTION -->
+    <section id="masalah" class="py-20 bg-white relative border-t border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-bold tracking-widest text-brand-red uppercase block mb-2">Fakta Pahit Industri Kuliner</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-slate leading-tight">
+                    Jangan Sampai Usaha Anda Hancur Hanya Karena Salah Memilih Supplier Siomay & Cuanki!
+                </h2>
+                <div class="w-24 h-1 bg-brand-red mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
+                
+                <!-- P = Problem Card -->
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 space-y-6 shadow-sm">
+                    <div class="w-12 h-12 rounded-xl bg-red-100 flex items-center justify-center text-brand-red border border-red-200">
+                        <img src="https://placehold.co/40x40/DC2626/FFFFFF.jpg?text=%E2%98%B9" class="w-6 h-6 rounded-full" alt="Frown Icon">
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-slate">Kenyataan Buruk yang Menghantui Anda Saat Ini:</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Mendapatkan supplier yang stabil dan berkomitmen tinggi tidaklah mudah. Kebanyakan supplier di luar sana hanya manis di awal penawaran saja.
+                    </p>
+                    <ul class="space-y-3.5 text-sm text-slate-700">
+                        <li class="flex items-start gap-2.5">
+                            <img src="https://placehold.co/40x40/DC2626/FFFFFF.jpg?text=%E2%9C%93" class="w-5 h-5 rounded-full shrink-0 mt-0.5" alt="Check Icon">
+                            <span><strong>Kualitas Rasa Selalu Fluktuatif:</strong> Kadang enak banget, kadang hambar seperti kurang bumbu. Ini merusak reputasi toko Anda.</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <img src="https://placehold.co/40x40/DC2626/FFFFFF.jpg?text=%E2%9C%93" class="w-5 h-5 rounded-full shrink-0 mt-0.5" alt="Check Icon">
+                            <span><strong>Harga Tidak Stabil:</strong> Supplier sepihak menaikkan harga dengan dalih bahan baku naik, membuat kalkulasi keuntungan Anda berantakan.</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <img src="https://placehold.co/40x40/DC2626/FFFFFF.jpg?text=%E2%9C%93" class="w-5 h-5 rounded-full shrink-0 mt-0.5" alt="Check Icon">
+                            <span><strong>Sering Terlambat Kirim:</strong> Saat warung Anda sedang ramai pembeli, pasokan barang justru kosong karena keterlambatan pengiriman.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- A = Amplify Card -->
+                <div class="p-8 rounded-2xl bg-red-50/50 border border-brand-red/10 space-y-6 shadow-sm">
+                    <div class="w-12 h-12 rounded-xl bg-brand-red/10 flex items-center justify-center text-brand-red border border-brand-red/20">
+                        <img src="https://placehold.co/40x40/DC2626/FFFFFF.jpg?text=%E2%86%98" class="w-6 h-6 rounded-full" alt="Down Trend Icon">
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-red">Efek Domino Jika Anda Terus Membiarkannya:</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Masalah kecil yang dibiarkan berlarut-larut dengan supplier buruk akan berdampak sangat fatal bagi kelangsungan bisnis Anda secara jangka panjang.
+                    </p>
+                    <ul class="space-y-3.5 text-sm text-slate-700">
+                        <li class="flex items-start gap-2.5">
+                            <img src="https://placehold.co/40x40/DC2626/FFFFFF.jpg?text=%E2%9A%A0" class="w-5 h-5 rounded-full shrink-0 mt-0.5" alt="Alert Icon">
+                            <span><strong>Pelanggan lambat laun akan pergi</strong> mencari tempat lain yang rasanya jauh lebih enak dan konsisten.</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <img src="https://placehold.co/40x40/DC2626/FFFFFF.jpg?text=%E2%9A%A0" class="w-5 h-5 rounded-full shrink-0 mt-0.5" alt="Alert Icon">
+                            <span><strong>Rating di Google Maps atau platform online Anda hancur</strong> karena ulasan buruk tentang kualitas makanan yang disajikan.</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <img src="https://placehold.co/40x40/DC2626/FFFFFF.jpg?text=%E2%9A%A0" class="w-5 h-5 rounded-full shrink-0 mt-0.5" alt="Alert Icon">
+                            <span><strong>Repeat order menipis, modal tersumbat</strong> pada sisa stok barang berkualitas rendah yang tidak laku terjual kembali.</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <img src="https://placehold.co/40x40/DC2626/FFFFFF.jpg?text=%E2%9A%A0" class="w-5 h-5 rounded-full shrink-0 mt-0.5" alt="Alert Icon">
+                            <span><strong>Omzet Anda anjlok drastis</strong> hingga memaksa Anda menutup bisnis yang telah dibangun dengan susah payah.</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- S = STORY & SOLUTION SECTION -->
+    <section id="keunggulan" class="py-20 bg-slate-50 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-6 space-y-6">
+                    <span class="text-xs font-bold tracking-widest text-brand-blue uppercase block"></span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-slate leading-tight">
+                        Bagaimana Siomay Cuanki Janda Lahir Untuk Menyelamatkan Bisnis Anda
+                    </h2>
+                    <p class="text-sm sm:text-base text-slate-600 leading-relaxed">
+                        Kami mengerti betul bahwa pondasi utama kesuksesan bisnis kuliner adalah <strong class="text-brand-blue">Rasa yang Konsisten</strong> dan <strong class="text-brand-red">Kemitraan yang Jujur</strong>. Berawal dari warung kuliner tradisional sederhana, kami melihat betapa sulitnya para pelaku UMKM memperoleh produk siomay dan cuanki berkualitas tinggi secara stabil.
+                    </p>
+                    <p class="text-sm sm:text-base text-slate-600 leading-relaxed">
+                        Oleh karena itu, <strong>Siomay Cuanki Janda</strong> hadir dengan komitmen tinggi: memproduksi siomay dan cuanki bercita rasa istimewa dengan bahan baku segar berstandar premium, diproses secara higienis, dan didistribusikan dengan sistem logistik yang tangguh serta harga yang sangat kompetitif.
+                    </p>
+                    
+                    <div class="p-5 rounded-2xl bg-white border border-slate-200 space-y-3 shadow-sm">
+                        <span class="text-sm font-bold text-brand-blue block">Komitmen Mutu Kami:</span>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            Setiap butir siomay dan cuanki diproduksi harian tanpa bahan pengawet kimia berbahaya. Rasa gurih alami kaldu yang dipadukan dengan rempah pilihan menghasilkan kelezatan mendalam yang disukai segala kalangan usia.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    
+                    <div class="p-6 bg-white rounded-2xl border border-slate-100 space-y-3 hover:border-brand-blue/30 shadow-sm transition duration-300">
+                        <div class="w-10 h-10 rounded-lg bg-brand-blue/10 flex items-center justify-center text-brand-blue">
+                            <img src="https://placehold.co/40x40/1E40AF/FFFFFF.jpg?text=%E2%98%85" class="w-5 h-5 rounded" alt="Award Icon">
+                        </div>
+                        <h4 class="font-bold text-brand-slate text-base">Bahan Berkualitas</h4>
+                        <p class="text-xs text-slate-500">Hanya menggunakan tepung pilihan, ikan segar berkualitas tinggi, serta rempah-rempah alami rahasia.</p>
+                    </div>
+
+                    <div class="p-6 bg-white rounded-2xl border border-slate-100 space-y-3 hover:border-brand-blue/30 shadow-sm transition duration-300">
+                        <div class="w-10 h-10 rounded-lg bg-brand-blue/10 flex items-center justify-center text-brand-blue">
+                            <img src="https://placehold.co/40x40/1E40AF/FFFFFF.jpg?text=%E2%9D%A4" class="w-5 h-5 rounded" alt="Heart Icon">
+                        </div>
+                        <h4 class="font-bold text-brand-slate text-base">Rasa Konsisten</h4>
+                        <p class="text-xs text-slate-500">SOP produksi ketat menjamin rasa produk hari ini akan sama lezatnya dengan rasa produk bulan depan.</p>
+                    </div>
+
+                    <div class="p-6 bg-white rounded-2xl border border-slate-100 space-y-3 hover:border-brand-blue/30 shadow-sm transition duration-300">
+                        <div class="w-10 h-10 rounded-lg bg-brand-blue/10 flex items-center justify-center text-brand-blue">
+                            <img src="https://placehold.co/40x40/1E40AF/FFFFFF.jpg?text=%E2%9C%94" class="w-5 h-5 rounded" alt="Shield Icon">
+                        </div>
+                        <h4 class="font-bold text-brand-slate text-base">Produksi Higienis</h4>
+                        <p class="text-xs text-slate-500">Lingkungan pemrosesan yang selalu bersih dan steril demi kesehatan seluruh konsumen Anda.</p>
+                    </div>
+
+                    <div class="p-6 bg-white rounded-2xl border border-slate-100 space-y-3 hover:border-brand-blue/30 shadow-sm transition duration-300">
+                        <div class="w-10 h-10 rounded-lg bg-brand-blue/10 flex items-center justify-center text-brand-blue">
+                            <img src="https://placehold.co/40x40/1E40AF/FFFFFF.jpg?text=%24" class="w-5 h-5 rounded" alt="Money Icon">
+                        </div>
+                        <h4 class="font-bold text-brand-slate text-base">Harga Distributor</h4>
+                        <p class="text-xs text-slate-500">Harga langsung tangan pertama dari pabrik, menjamin margin profit tertinggi untuk bisnis Anda.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- T = TRANSFORMATION SECTION (TESTIMONIALS) -->
+    <section id="testimoni" class="py-20 bg-white relative border-y border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-bold tracking-widest text-brand-red uppercase block mb-2"> </span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-slate">Kisah Nyata Dari Mereka Yang Mengalami Transformasi Finansial Dahsyat</h2>
+                <div class="w-24 h-1 bg-brand-red mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                
+                <!-- Testi 1 -->
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 flex flex-col justify-between space-y-6 shadow-sm hover:shadow-md transition">
+                    <div class="space-y-4">
+                        <div class="flex text-brand-red gap-1">
+                            <span class="text-lg">★★★★★</span>
+                        </div>
+                        <p class="text-sm text-slate-600 italic leading-relaxed">
+                            "Dulu saya kesulitan mencari supplier yang kualitasnya stabil. Kadang asin banget, kadang ga kerasa ikannya, bikin pelanggan saya sering protes. Setelah beralih menggunakan Siomay Cuanki Janda, pelanggan saya sangat puas dan tingkat repeat order meningkat hampir setiap minggu! Bahkan warung bakso saya sekarang terkenal di wilayah karena kelezatan cuankinya."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4 pt-4 border-t border-slate-200">
+                        <div class="w-12 h-12 bg-brand-blue rounded-full flex items-center justify-center font-bold text-white text-lg overflow-hidden">
+                            <img src="https://placehold.co/120x120/1E40AF/FFFFFF.jpg?text=SRI" class="w-full h-full object-cover" alt="Ibu Sri">
+                        </div>
+                        <div>
+                            <span class="block text-sm font-bold text-brand-slate">Ibu Sri Wahyuni</span>
+                            <span class="block text-xs text-brand-red font-semibold">Pemilik Warung Bakso & Kantin</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testi 2 -->
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 flex flex-col justify-between space-y-6 shadow-sm hover:shadow-md transition">
+                    <div class="space-y-4">
+                        <div class="flex text-brand-red gap-1">
+                            <span class="text-lg">★★★★★</span>
+                        </div>
+                        <p class="text-sm text-slate-600 italic leading-relaxed">
+                            "Menjadi reseller online makanan beku itu tantangannya besar di kualitas produk. Untung ketemu brand Cuanki Janda ini. Dari segi harga sangat kompetitif untuk saya jual kembali dalam kemasan siap saji. Pengiriman ke luar kota selalu aman karena dikemas vakum dengan sangat rapi. Omzet harian saya naik 3 kali lipat berkat kualitas rasa yang juara!"
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4 pt-4 border-t border-slate-200">
+                        <div class="w-12 h-12 bg-brand-red rounded-full flex items-center justify-center font-bold text-white text-lg overflow-hidden">
+                            <img src="https://placehold.co/120x120/DC2626/FFFFFF.jpg?text=BUD" class="w-full h-full object-cover" alt="Pak Budi">
+                        </div>
+                        <div>
+                            <span class="block text-sm font-bold text-brand-slate">Pak Budi Prasetyo</span>
+                            <span class="block text-xs text-brand-blue font-semibold">Reseller Frozen Food Online</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testi 3 -->
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 flex flex-col justify-between space-y-6 shadow-sm hover:shadow-md transition">
+                    <div class="space-y-4">
+                        <div class="flex text-brand-red gap-1">
+                            <span class="text-lg">★★★★★</span>
+                        </div>
+                        <p class="text-sm text-slate-600 italic leading-relaxed">
+                            "Saya awalnya ragu mau jadi agen distribusi kuliner karena takut modal macet. Tapi support tim administrasi dari Siomay Cuanki Janda luar biasa ramah dan mengarahkan banget. Mereka menyediakan katalog lengkap, materi promosi, dan bimbingan cara jualan. Sekarang jaringan reseller saya sudah tersebar di 5 kecamatan berbeda!"
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4 pt-4 border-t border-slate-200">
+                        <div class="w-12 h-12 bg-brand-blue rounded-full flex items-center justify-center font-bold text-white text-lg overflow-hidden">
+                            <img src="https://placehold.co/120x120/1E40AF/FFFFFF.jpg?text=RIN" class="w-full h-full object-cover" alt="Teh Rina">
+                        </div>
+                        <div>
+                            <span class="block text-sm font-bold text-brand-slate">Teh Rina Karlina</span>
+                            <span class="block text-xs text-brand-red font-semibold">Agen Kemitraan Wilayah</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PREMIUM PRODUCTS GALLERY SECTION (PORTRAIT FRAMES) -->
+    <section id="produk" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-bold tracking-widest text-brand-blue uppercase block mb-2">Katalog Eksklusif Kami</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-slate">Pilihan Produk Premium Terlaris</h2>
+                <p class="text-sm text-slate-500 mt-2">Dibuat fresh setiap hari dengan bahan baku higienis pilihan terbaik.</p>
+                <div class="w-24 h-1 bg-brand-blue mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <!-- Product Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Product 1: Siomay Cuanki -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-slate-200 flex flex-col justify-between group hover:border-brand-blue/40 shadow-sm transition-all duration-300">
+                    <div class="relative aspect-[4/5] overflow-hidden bg-slate-100">
+                        <img src="https://cdn.phototourl.com/free/2026-06-26-9c992e4d-adc1-434d-8697-711ca742d680.png" alt="Siomay Ayam Premium" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" onerror="this.src='https://placehold.co/600x800/1E40AF/FFFFFF.jpg?text=Siomay+Ayam'">
+                        <span class="absolute top-4 right-4 bg-brand-red text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase">BEST SELLER</span>
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <h3 class="text-xl font-bold text-brand-slate">Siomay Cuanki Janda</h3>
+                        <p class="text-xs text-slate-500 leading-relaxed">
+                            Olahan Ikan Tengiri  segar pilihan dengan cincangan halus dibalut kulit pangsit lembut. Menghasilkan tekstur kenyal dan rasa gurih alami yang kuat di setiap gigitan.
+                        </p>
+                        <div class="flex items-center justify-between pt-2">
+                            <span class="text-brand-blue font-extrabold text-lg">Hubungi CS</span>
+                            <span class="text-xs text-slate-400">Min. Order 20 Bks</span>
+                        </div>
+                        <a href="https://wa.me/62895332494484?text=Halo%20Admin%2C%20saya%20tertarik%20dengan%20produk%20Siomay%20Ayam%20Premium" target="_blank" class="w-full bg-brand-blue hover:bg-brand-blue-dark text-white text-center py-3.5 rounded-xl font-bold text-sm block transition-all">Pesan Via WhatsApp</a>
+                    </div>
+                </div>
+
+                <!-- Product 2: Batagor Ikan -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-slate-200 flex flex-col justify-between group hover:border-brand-blue/40 shadow-sm transition-all duration-300">
+                    <div class="relative aspect-[4/5] overflow-hidden bg-slate-100">
+                        <img src="https://cdn.phototourl.com/member/2026-06-26-e6648e46-3371-404c-b727-45c12fd7e20f.jpg" alt="Siomay Ikan Tenggiri" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" onerror="this.src='https://placehold.co/600x800/DC2626/FFFFFF.jpg?text=Siomay+Ikan'">
+                        <span class="absolute top-4 right-4 bg-brand-blue text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase">RECOMMENDED</span>
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <h3 class="text-xl font-bold text-brand-slate">Batagor Tenggiri</h3>
+                        <p class="text-xs text-slate-500 leading-relaxed">
+                            Dibuat menggunakan 100% daging ikan tenggiri segar berkualitas di padukan dengan tahu. Memiliki aroma khas ikan yang kuat tanpa amis sediktpun..
+                        </p>
+                        <div class="flex items-center justify-between pt-2">
+                            <span class="text-brand-blue font-extrabold text-lg">Hubungi CS</span>
+                            <span class="text-xs text-slate-400">Min. Order 10 Bks</span>
+                        </div>
+                        <a href="https://wa.me/62895332494484?text=Halo%20Admin%2C%20saya%20tertarik%20dengan%20produk%20Siomay%20Ikan%20Tenggiri" target="_blank" class="w-full bg-brand-blue hover:bg-brand-blue-dark text-white text-center py-3.5 rounded-xl font-bold text-sm block transition-all">Pesan Via WhatsApp</a>
+                    </div>
+                </div>
+
+                <!-- Product 3: Siomay Cuanki Lidah -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-slate-200 flex flex-col justify-between group hover:border-brand-blue/40 shadow-sm transition-all duration-300">
+                    <div class="relative aspect-[4/5] overflow-hidden bg-slate-100">
+                        <img src="https://cdn.phototourl.com/free/2026-06-26-00a20418-5f99-487c-841a-ab54aeedddb0.png" alt="Cuanki Kuah Instan" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" onerror="this.src='https://placehold.co/600x800/1E40AF/FFFFFF.jpg?text=Cuanki+Kuah'">
+                        <span class="absolute top-4 right-4 bg-brand-red text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase">BEST SELLER</span>
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <h3 class="text-xl font-bold text-brand-slate">Siomay Cuanki Lidah</h3>
+                        <p class="text-xs text-slate-500 leading-relaxed">
+                            Garing renyah berongga sempurna yang siap menyerap kuah gurih secara maksimal. Tidak keras saat digigit, sangat gurih, awet tahan lama tanpa pengawet..
+                        </p>
+                        <div class="flex items-center justify-between pt-2">
+                            <span class="text-brand-blue font-extrabold text-lg">Hubungi CS</span>
+                            <span class="text-xs text-slate-400">Min. Order 20 Bks</span>
+                        </div>
+                        <a href="https://wa.me/62895332494484?text=Halo%20Admin%2C%20saya%20tertarik%20dengan%20produk%20Cuanki%20Kuah%20Instan" target="_blank" class="w-full bg-brand-blue hover:bg-brand-blue-dark text-white text-center py-3.5 rounded-xl font-bold text-sm block transition-all">Pesan Via WhatsApp</a>
+                    </div>
+                </div>
+
+                <!-- Product 4:Siomay Otak-Otak Kering -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-slate-200 flex flex-col justify-between group hover:border-brand-blue/40 shadow-sm transition-all duration-300">
+                    <div class="relative aspect-[4/5] overflow-hidden bg-slate-100">
+                        <img src="https://cdn.phototourl.com/free/2026-06-26-9e13973d-68c1-48ab-be63-e82ca5a21145.png" alt="Cuanki Kering" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" onerror="this.src='https://placehold.co/600x800/DC2626/FFFFFF.jpg?text=Cuanki+Kering'">
+                        <span class="absolute top-4 right-4 bg-slate-600 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase">STOK TERBATAS</span>
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <h3 class="text-xl font-bold text-brand-slate">Siomay Otak-Otak Kering</h3>
+                        <p class="text-xs text-slate-500 leading-relaxed">
+                           otak otak kering  Garing renyah dan padat , sangat gurih, awet tahan lama tanpa pengawet.
+                        </p>
+                        <div class="flex items-center justify-between pt-2">
+                            <span class="text-brand-blue font-extrabold text-lg">Hubungi CS</span>
+                            <span class="text-xs text-slate-400">Min. Order 20 Bks</span>
+                        </div>
+                        <a href="https://wa.me/62895332494484?text=Halo%20Admin%2C%20saya%20tertarik%20dengan%20produk%20Cuanki%20Kering" target="_blank" class="w-full bg-brand-blue hover:bg-brand-blue-dark text-white text-center py-3.5 rounded-xl font-bold text-sm block transition-all">Pesan Via WhatsApp</a>
+                    </div>
+                </div>
+
+                <!-- Product 5: Bakso Cuanki Instans-->
+                <div class="bg-white rounded-2xl overflow-hidden border border-slate-200 flex flex-col justify-between group hover:border-brand-blue/40 shadow-sm transition-all duration-300">
+                    <div class="relative aspect-[4/5] overflow-hidden bg-slate-100">
+                        <img src="https://cdn.phototourl.com/member/2026-06-26-295e8103-8ed9-4850-b969-ca619b158f7d.jpg" alt="Bakso Cuanki Premium" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" onerror="this.src='https://placehold.co/600x800/1E40AF/FFFFFF.jpg?text=Bakso+Cuanki'">
+                        <span class="absolute top-4 right-4 bg-brand-blue text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase">FAVORIT</span>
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <h3 class="text-xl font-bold text-brand-slate">Bakso Cuanki Instant Premium</h3>
+                        <p class="text-xs text-slate-500 leading-relaxed">
+                            Perpaduan bakso urat dan halus dengan Siomay Cuanki dengan bumbu kuah khas cuanki yang ringan berkaldu gurih gurih asin mantap. lengkap dengan bubuk cabe dan jeruk limau
+                        </p>
+                        <div class="flex items-center justify-between pt-2">
+                            <span class="text-brand-blue font-extrabold text-lg">Hubungi CS</span>
+                            <span class="text-xs text-slate-400">Min. Order 10 Porsi</span>
+                        </div>
+                        <a href="https://wa.me/62895332494484?text=Halo%20Admin%2C%20saya%20tertarik%20dengan%20produk%20Bakso%20Cuanki" target="_blank" class="w-full bg-brand-blue hover:bg-brand-blue-dark text-white text-center py-3.5 rounded-xl font-bold text-sm block transition-all">Pesan Via WhatsApp</a>
+                    </div>
+                </div>
+
+                <!-- Product 6: Paket Usaha Cuanki -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-slate-200 flex flex-col justify-between group hover:border-brand-red/40 shadow-sm transition-all duration-300">
+                    <div class="relative aspect-[4/5] overflow-hidden bg-slate-100">
+                        <img src="https://cdn.phototourl.com/free/2026-06-26-2b7f9842-2511-41c6-818a-a7f6bf5a70ed.png" alt="Paket Usaha Cuanki" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" onerror="this.src='https://placehold.co/600x800/DC2626/FFFFFF.jpg?text=Paket+Usaha'">
+                        <span class="absolute top-4 right-4 bg-brand-red text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase">SANGAT HEMAT</span>
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <h3 class="text-xl font-bold text-brand-slate">Paket Kemitraan Usaha Cuanki</h3>
+                        <p class="text-xs text-slate-500 leading-relaxed">
+                            Sudah termasuk pasokan komplit bahan baku (Siomay, Cuanki Tahu, Cuanki Lidah, Bumbu Premium, dsb) untuk memulai usaha jualan di daerah Anda. Siap kirim!
+                        </p>
+                        <div class="flex items-center justify-between pt-2">
+                            <span class="text-brand-red font-extrabold text-lg">Harga Promo</span>
+                            <span class="text-xs text-slate-400">Kapasitas Besar</span>
+                        </div>
+                        <a href="https://wa.me/62895332494484?text=Halo%20Admin%2C%20saya%20tertarik%20dengan%20Paket%20Usaha%20Cuanki" target="_blank" class="w-full bg-gradient-accent text-white text-center py-3.5 rounded-xl font-extrabold text-sm block transition-all hover-premium-glow">Ajukan Jadi Mitra</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- O = OFFER SECTION (PENAWARAN YANG SANGAT MENARIK) -->
+    <section id="penawaran" class="py-20 bg-white relative border-t border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="bg-slate-50 rounded-3xl border border-slate-200 p-8 sm:p-12 relative overflow-hidden shadow-sm">
+                <!-- Decorative background elements -->
+                <div class="absolute -top-10 -right-10 w-40 h-40 bg-brand-blue/5 rounded-full blur-2xl"></div>
+                <div class="absolute -bottom-10 -left-10 w-40 h-40 bg-brand-red/5 rounded-full blur-2xl"></div>
+
+                <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                    
+                    <div class="lg:col-span-6 space-y-6 text-center lg:text-left">
+                        <span class="text-xs font-bold tracking-widest text-brand-red uppercase block"></span>
+                        <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-slate leading-tight">
+                            Bergabung Sebagai Mitra Kami Hari Ini & Amankan Keuntungan Maksimalnya!
+                        </h2>
+                        <p class="text-sm sm:text-base text-slate-600 leading-relaxed">
+                            Kami menyediakan platform pasokan yang ramah pemula dan berorientasi jangka panjang demi kemajuan profit bisnis Anda.
+                        </p>
+                        <div class="w-full h-px bg-slate-200 my-4"></div>
+                        <div class="flex flex-wrap justify-center lg:justify-start gap-4">
+                            <span class="bg-white text-brand-blue text-xs px-3.5 py-1.5 rounded-full border border-brand-blue/20 flex items-center gap-1.5 shadow-sm">
+                                <img src="https://placehold.co/40x40/1E40AF/FFFFFF.jpg?text=%E2%9C%94" class="w-3.5 h-3.5 rounded-full" alt="Icon Check"> Fast Response
+                            </span>
+                            <span class="bg-white text-brand-blue text-xs px-3.5 py-1.5 rounded-full border border-brand-blue/20 flex items-center gap-1.5 shadow-sm">
+                                <img src="https://placehold.co/40x40/1E40AF/FFFFFF.jpg?text=%E2%9C%94" class="w-3.5 h-3.5 rounded-full" alt="Icon Check"> Higienis Teruji
+                            </span>
+                            <span class="bg-white text-brand-blue text-xs px-3.5 py-1.5 rounded-full border border-brand-blue/20 flex items-center gap-1.5 shadow-sm">
+                                <img src="https://placehold.co/40x40/1E40AF/FFFFFF.jpg?text=%E2%9C%94" class="w-3.5 h-3.5 rounded-full" alt="Icon Check"> Pengiriman Bergaransi
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-6 bg-white p-8 rounded-2xl border border-slate-200 shadow-xl space-y-6">
+                        <h3 class="text-xl font-bold text-brand-slate text-center">Benefit Utama Menjadi Mitra Kami:</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-start gap-3 text-sm text-slate-600">
+                                <div class="bg-brand-blue/10 p-1 rounded-full text-brand-blue mt-0.5 shrink-0">
+                                    <img src="https://placehold.co/40x40/1E40AF/FFFFFF.jpg?text=%E2%9C%94" class="w-4 h-4 rounded-full" alt="Icon Check">
+                                </div>
+                                <span><strong>Harga Distributor Tangan Pertama:</strong> Kami adalah produsen langsung sehingga margin keuntungan Anda dipastikan paling tebal.</span>
+                            </li>
+                            <li class="flex items-start gap-3 text-sm text-slate-600">
+                                <div class="bg-brand-blue/10 p-1 rounded-full text-brand-blue mt-0.5 shrink-0">
+                                    <img src="https://placehold.co/40x40/1E40AF/FFFFFF.jpg?text=%E2%9C%94" class="w-4 h-4 rounded-full" alt="Icon Check">
+                                </div>
+                                <span><strong>Bisa Untuk Reseller & Agen:</strong> Sistem penjenjangan kemitraan yang transparan dan bersahabat bagi pemula.</span>
+                            </li>
+                            <li class="flex items-start gap-3 text-sm text-slate-600">
+                                <div class="bg-brand-blue/10 p-1 rounded-full text-brand-blue mt-0.5 shrink-0">
+                                    <img src="https://placehold.co/40x40/1E40AF/FFFFFF.jpg?text=%E2%9C%94" class="w-4 h-4 rounded-full" alt="Icon Check">
+                                </div>
+                                <span><strong>Jaminan Produk Fresh:</strong> Diproduksi berkala tanpa tumpukan stok lama sehingga rasa tetap segar maksimal.</span>
+                            </li>
+                            <li class="flex items-start gap-3 text-sm text-slate-600">
+                                <div class="bg-brand-blue/10 p-1 rounded-full text-brand-blue mt-0.5 shrink-0">
+                                    <img src="https://placehold.co/40x40/1E40AF/FFFFFF.jpg?text=%E2%9C%94" class="w-4 h-4 rounded-full" alt="Icon Check">
+                                </div>
+                                <span><strong>Pengiriman Cepat Seluruh Kota:</strong> Kerjasama khusus dengan ekspedisi tepercaya menjamin keamanan dan kesegaran isi paket.</span>
+                            </li>
+                            <li class="flex items-start gap-3 text-sm text-slate-600">
+                                <div class="bg-brand-blue/10 p-1 rounded-full text-brand-blue mt-0.5 shrink-0">
+                                    <img src="https://placehold.co/40x40/1E40AF/FFFFFF.jpg?text=%E2%9C%94" class="w-4 h-4 rounded-full" alt="Icon Check">
+                                </div>
+                                <span><strong>Konsultasi & Support Promosi:</strong> Kami menyediakan materi promosi berupa foto dan video berkualitas tinggi gratis untuk para agen.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- R = RESPONSE SECTION (LANGKAH PEMESANAN & CTA UTAMA) -->
+    <section id="cara-order" class="py-20 bg-white relative border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-bold tracking-widest text-brand-red uppercase block mb-2"></span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-slate">4 Langkah Mudah Memulai Kemitraan Sukses</h2>
+                <p class="text-sm text-slate-500 mt-2">Tidak perlu proses ribet, sistem pemesanan kami sangat bersahabat dan instan.</p>
+                <div class="w-24 h-1 bg-brand-red mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <!-- Steps Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <!-- Step 1 -->
+                <div class="p-6 bg-slate-50 border border-slate-200 rounded-2xl relative text-center space-y-4 shadow-sm">
+                    <span class="absolute top-4 left-4 bg-brand-blue text-white font-extrabold text-sm w-8 h-8 rounded-full flex items-center justify-center">1</span>
+                    <div class="w-16 h-16 bg-brand-blue/10 text-brand-blue rounded-full flex items-center justify-center mx-auto mb-2">
+                        <img src="hhttps://cdn.phototourl.com/free/2026-06-26-9c992e4d-adc1-434d-8697-711ca742d680.png" class="w-10 h-10 rounded-full" alt="Chat Icon">
+                    </div>
+                    <h3 class="font-bold text-brand-slate text-lg">Hubungi WhatsApp</h3>
+                    <p class="text-xs text-slate-500">Klik tombol hubungi WhatsApp dan konsultasikan langsung jenis produk pilihan Anda.</p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="p-6 bg-slate-50 border border-slate-200 rounded-2xl relative text-center space-y-4 shadow-sm">
+                    <span class="absolute top-4 left-4 bg-brand-blue text-white font-extrabold text-sm w-8 h-8 rounded-full flex items-center justify-center">2</span>
+                    <div class="w-16 h-16 bg-brand-blue/10 text-brand-blue rounded-full flex items-center justify-center mx-auto mb-2">
+                        <img src="https://placehold.co/80x80/1E40AF/FFFFFF.jpg?text=MENU" class="w-10 h-10 rounded-full" alt="Menu Icon">
+                    </div>
+                    <h3 class="font-bold text-brand-slate text-lg">Pilih Paket Produk</h3>
+                    <p class="text-xs text-slate-500">Tentukan jumlah pesanan (Siomay, Cuanki, dsb) sesuai kapasitas penjualan bisnis Anda.</p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="p-6 bg-slate-50 border border-slate-200 rounded-2xl relative text-center space-y-4 shadow-sm">
+                    <span class="absolute top-4 left-4 bg-brand-blue text-white font-extrabold text-sm w-8 h-8 rounded-full flex items-center justify-center">3</span>
+                    <div class="w-16 h-16 bg-brand-blue/10 text-brand-blue rounded-full flex items-center justify-center mx-auto mb-2">
+                        <img src="https://placehold.co/80x80/1E40AF/FFFFFF.jpg?text=PAY" class="w-10 h-10 rounded-full" alt="Payment Icon">
+                    </div>
+                    <h3 class="font-bold text-brand-slate text-lg">Pembayaran</h3>
+                    <p class="text-xs text-slate-500">Lakukan pembayaran aman langsung via transfer bank resmi perusahaan kami.</p>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="p-6 bg-slate-50 border border-slate-200 rounded-2xl relative text-center space-y-4 shadow-sm">
+                    <span class="absolute top-4 left-4 bg-brand-blue text-white font-extrabold text-sm w-8 h-8 rounded-full flex items-center justify-center">4</span>
+                    <div class="w-16 h-16 bg-brand-blue/10 text-brand-blue rounded-full flex items-center justify-center mx-auto mb-2">
+                        <img src="https://placehold.co/80x80/1E40AF/FFFFFF.jpg?text=TRUCK" class="w-10 h-10 rounded-full" alt="Truck Icon">
+                    </div>
+                    <h3 class="font-bold text-brand-slate text-lg">Pengiriman Cepat</h3>
+                    <p class="text-xs text-slate-500">Pesanan diproses higienis, dikemas vakum aman, dan dikirim hari itu juga ke kota Anda.</p>
+                </div>
+
+            </div>
+
+            <!-- Giant Action Response CTA -->
+            <div class="mt-16 text-center max-w-2xl mx-auto space-y-6">
+                <h3 class="text-2xl font-bold text-brand-slate">Sudah Siap Melipatgandakan Omzet Penjualan Anda?</h3>
+                <p class="text-sm text-slate-600">Slot kemitraan wilayah agen dibatasi untuk menjaga persaingan pasar lokal tetap sehat. Jangan tunda lagi, klaim slot agen wilayah Anda sekarang juga!</p>
+                <div class="pt-2">
+                    <a href="https://wa.me/62895332494484?text=Halo%20Admin%2C%20saya%20tertarik%20untuk%20bergabung%20menjadi%20mitra%20reseller%20distributor%20Siomay%20Cuanki%20Janda" target="_blank" rel="noopener" class="inline-flex bg-gradient-accent text-white font-extrabold text-lg px-10 py-5 rounded-2xl shadow-xl shadow-brand-red/25 hover-premium-glow uppercase tracking-wider transition duration-300 gap-3 items-center">
+                        <img src="https://placehold.co/40x40/FFFFFF/DC2626.jpg?text=WA" class="w-6 h-6 rounded-full" alt="WhatsApp Icon">
+                        Pesan & Konsultasi Sekarang Via WhatsApp
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION: MARKETPLACE SECTION -->
+    <section id="marketplace" class="py-20 bg-slate-50 relative border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-bold tracking-widest text-brand-blue uppercase block mb-2">Tersedia di Marketplace Resmi</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-slate">Lebih Nyaman Belanja Lewat E-Commerce Pilihan Anda</h2>
+                <p class="text-sm text-slate-500 mt-2">Dapatkan jaminan keamanan ekstra, gratis ongkir, dan promo cashback menanti Anda.</p>
+                <div class="w-24 h-1 bg-brand-blue mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                
+                <!-- Shopee Card -->
+                <a href="https://s.shopee.co.id/1Vx42bziFA" target="_blank" rel="noopener" class="p-8 bg-white hover:bg-[#EE4D2D]/5 border border-slate-200 hover:border-[#EE4D2D] rounded-2xl flex flex-col justify-between items-center text-center transition-all duration-300 group space-y-6 shadow-sm">
+                    <div class="space-y-4">
+                        <div class="w-16 h-16 bg-[#EE4D2D] text-white rounded-full flex items-center justify-center mx-auto shadow-md">
+                            <img src="https://cdn.phototourl.com/member/2026-06-27-514da920-fa3c-4a6a-b63c-bf936281464a.jpg" class="w-10 h-10 rounded-full" alt="Shopee Logo">
+                        </div>
+                        <h3 class="text-2xl font-black text-brand-slate tracking-wide">SHOPEE OFFICIAL</h3>
+                        <p class="text-sm text-slate-600">
+                            Nikmati garansi pengiriman, gratis ongkir ekstra, dan pembayaran aman sistem COD via Shopee.
+                        </p>
+                    </div>
+                    <span class="bg-[#EE4D2D] hover:bg-[#EE4D2D]/90 text-white font-extrabold text-sm px-6 py-3.5 rounded-xl block w-full transition-all tracking-wider uppercase">
+                        BELANJA VIA SHOPEE
+                    </span>
+                </a>
+
+                <!-- TikTok Shop Card -->
+                <a href="https://vt.tokopedia.com/t/ZS96FhwGJQp5u-QAeMe/" target="_blank" rel="noopener" class="p-8 bg-white hover:bg-slate-900/5 border border-slate-200 hover:border-black rounded-2xl flex flex-col justify-between items-center text-center transition-all duration-300 group space-y-6 shadow-sm">
+                    <div class="space-y-4">
+                        <div class="w-16 h-16 bg-black text-white rounded-full flex items-center justify-center mx-auto shadow-md">
+                            <img src="https://cdn.phototourl.com/member/2026-06-27-377ce524-b3f8-49a8-b15c-9a5f51f1f642.jpg" class="w-10 h-10 rounded-full" alt="TikTok Logo">
+                        </div>
+                        <h3 class="text-2xl font-black text-brand-slate tracking-wide">TIKTOK SHOP</h3>
+                        <p class="text-sm text-slate-600">
+                            Tonton siaran langsung kami, peroleh voucher diskon dadakan, dan nikmati kemudahan checkout instan.
+                        </p>
+                    </div>
+                    <span class="bg-black hover:bg-slate-800 text-white font-extrabold text-sm px-6 py-3.5 rounded-xl block w-full transition-all tracking-wider uppercase">
+                        BELANJA VIA TIKTOK SHOP
+                    </span>
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION: LEAD CAPTURE FORM WITH VALIDATION -->
+    <section id="form-lead" class="py-20 bg-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="max-w-3xl mx-auto bg-slate-50 border border-slate-200 rounded-3xl p-8 sm:p-12 shadow-xl relative">
+                
+                <div class="text-center mb-8">
+                    <span class="text-xs font-bold tracking-widest text-brand-red uppercase block mb-1">Hubungi Kami</span>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-brand-slate">Dapatkan Proposal Kemitraan & Katalog Eksklusif</h2>
+                    <p class="text-xs sm:text-sm text-slate-500 mt-2">Isi formulir singkat di bawah ini, tim representatif kami akan segera menghubungi Anda dalam waktu 1x24 jam.</p>
+                </div>
+
+                <!-- Custom Form Feedback Container -->
+                <div id="form-feedback" class="hidden p-6 rounded-2xl bg-brand-blue/5 border border-brand-blue/30 text-center space-y-4 mb-6">
+                    <div class="w-12 h-12 bg-brand-blue text-white rounded-full flex items-center justify-center mx-auto shadow">
+                        <img src="https://placehold.co/40x40/1E40AF/FFFFFF.jpg?text=%E2%9C%94" class="w-6 h-6 rounded-full" alt="Success Icon">
+                    </div>
+                    <h4 class="text-xl font-bold text-brand-slate">Pengiriman Berhasil!</h4>
+                    <p class="text-xs text-slate-600">Terima kasih atas minat Anda. Proposal eksklusif telah kami siapkan. Silakan klik tombol di bawah untuk melanjutkan konsultasi langsung ke asisten pemasaran WhatsApp kami.</p>
+                    <a href="https://wa.me/62895332494484?text=Halo%20Admin%2C%20saya%20sudah%20mengisi%20formulir%20Lead%20dan%20ingin%20mendapatkan%20proposal%20kemitraan%20eksklusif." target="_blank" class="inline-block bg-gradient-accent text-white font-extrabold text-xs px-6 py-3 rounded-xl hover-premium-glow shadow">Buka WhatsApp Sekarang</a>
+                </div>
+
+                <!-- Main Form -->
+                <form id="leadForm" class="space-y-5">
+                    
+                    <!-- Input Nama -->
+                    <div class="space-y-1.5">
+                        <label for="nama" class="block text-xs font-bold text-slate-700 uppercase tracking-wider">Nama Lengkap Anda</label>
+                        <div class="relative">
+                            <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center text-slate-400">
+                                <img src="https://placehold.co/40x40/CCCCCC/000000.jpg?text=U" class="w-4 h-4 rounded-full" alt="User Icon">
+                            </span>
+                            <input type="text" id="nama" name="nama" placeholder="Contoh: Sri Wahyuni" class="w-full bg-white border border-slate-300 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue rounded-xl pl-10 pr-4 py-3.5 text-sm text-brand-slate placeholder-slate-400 outline-none transition-all">
+                        </div>
+                        <span id="error-nama" class="text-[10px] text-brand-red font-medium hidden">Nama tidak boleh kosong dan harus lebih dari 2 karakter.</span>
+                    </div>
+
+                    <!-- Input WhatsApp -->
+                    <div class="space-y-1.5">
+                        <label for="wa" class="block text-xs font-bold text-slate-700 uppercase tracking-wider">Nomor WhatsApp Aktif</label>
+                        <div class="relative">
+                            <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center text-slate-400">
+                                <img src="https://placehold.co/40x40/CCCCCC/000000.jpg?text=T" class="w-4 h-4 rounded-full" alt="Phone Icon">
+                            </span>
+                            <input type="tel" id="wa" name="wa" placeholder="Contoh: 0895332494484" class="w-full bg-white border border-slate-300 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue rounded-xl pl-10 pr-4 py-3.5 text-sm text-brand-slate placeholder-slate-400 outline-none transition-all">
+                        </div>
+                        <span id="error-wa" class="text-[10px] text-brand-red font-medium hidden">Masukkan nomor WhatsApp valid (minimal 10 digit angka).</span>
+                    </div>
+
+                    <!-- Input Email -->
+                    <div class="space-y-1.5">
+                        <label for="email" class="block text-xs font-bold text-slate-700 uppercase tracking-wider">Alamat Email</label>
+                        <div class="relative">
+                            <span class="absolute inset-y-0 left-0 pl-3.5 flex items-center text-slate-400">
+                                <img src="https://placehold.co/40x40/CCCCCC/000000.jpg?text=%40" class="w-4 h-4 rounded-full" alt="Mail Icon">
+                            </span>
+                            <input type="email" id="email" name="email" placeholder="Contoh: sri.wahyuni@gmail.com" class="w-full bg-white border border-slate-300 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue rounded-xl pl-10 pr-4 py-3.5 text-sm text-brand-slate placeholder-slate-400 outline-none transition-all">
+                        </div>
+                        <span id="error-email" class="text-[10px] text-brand-red font-medium hidden">Masukkan format alamat email yang valid.</span>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="pt-2">
+                        <button type="submit" class="w-full bg-gradient-accent hover:bg-brand-red-light text-white font-extrabold text-base py-4 rounded-xl shadow-lg shadow-brand-red/15 transition-all duration-300 flex items-center justify-center gap-2 tracking-wider uppercase">
+                            <img src="https://placehold.co/40x40/FFFFFF/DC2626.jpg?text=SEND" class="w-5 h-5 rounded-full" alt="Submit Icon">
+                            KIRIM PENGAJUAN SEKARANG
+                        </button>
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION: FAQ Accordion -->
+    <section id="faq" class="py-20 bg-white relative border-t border-slate-100">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-bold tracking-widest text-brand-red uppercase block mb-2">Pertanyaan Populer</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-slate">Ada Pertanyaan? Kami Punya Jawabannya</h2>
+                <div class="w-24 h-1 bg-brand-red mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <!-- FAQ Wrapper -->
+            <div class="space-y-4">
+                
+                <!-- Q1 -->
+                <div class="bg-slate-50 border border-slate-200 rounded-2xl overflow-hidden transition-all duration-300">
+                    <button class="faq-toggle w-full p-6 text-left flex items-center justify-between text-brand-slate font-bold text-base sm:text-lg focus:outline-none">
+                        <span>Apakah bisa reseller?</span>
+                        <img src="https://placehold.co/40x40/1E40AF/FFFFFF.jpg?text=%E2%86%93" class="faq-icon w-5 h-5 rounded-full transition-transform duration-300" alt="Toggle Icon">
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 text-sm text-slate-600 leading-relaxed border-t border-slate-200 pt-4">
+                        Tentu saja bisa! Kami membuka peluang seluas-luasnya untuk pendaftaran mitra reseller maupun agen distribusi resmi di seluruh kota di Indonesia dengan skema harga khusus tangan pertama yang sangat kompetitif.
+                    </div>
+                </div>
+
+                <!-- Q2 -->
+                <div class="bg-slate-50 border border-slate-200 rounded-2xl overflow-hidden transition-all duration-300">
+                    <button class="faq-toggle w-full p-6 text-left flex items-center justify-between text-brand-slate font-bold text-base sm:text-lg focus:outline-none">
+                        <span>Minimal order berapa?</span>
+                        <img src="https://placehold.co/40x40/1E40AF/FFFFFF.jpg?text=%E2%86%93" class="faq-icon w-5 h-5 rounded-full transition-transform duration-300" alt="Toggle Icon">
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 text-sm text-slate-600 leading-relaxed border-t border-slate-200 pt-4">
+                        Untuk minimal order bervariasi bergantung pada jenis produk. Sebagai contoh, untuk produk Siomay basah minimal order 50 pcs, sedangkan untuk produk olahan instan minimal order hanya 10 porsi saja.
+                    </div>
+                </div>
+
+                <!-- Q3 -->
+                <div class="bg-slate-50 border border-slate-200 rounded-2xl overflow-hidden transition-all duration-300">
+                    <button class="faq-toggle w-full p-6 text-left flex items-center justify-between text-brand-slate font-bold text-base sm:text-lg focus:outline-none">
+                        <span>Apakah bisa dikirim luar kota?</span>
+                        <img src="https://placehold.co/40x40/1E40AF/FFFFFF.jpg?text=%E2%86%93" class="faq-icon w-5 h-5 rounded-full transition-transform duration-300" alt="Toggle Icon">
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 text-sm text-slate-600 leading-relaxed border-t border-slate-200 pt-4">
+                        Ya, kami melayani pengiriman produk ke seluruh kota di Indonesia menggunakan jasa ekspedisi kilat/one-day service. Untuk menjamin kesegaran di perjalanan, kami mengemas produk basah menggunakan teknologi pengemasan vakum steril yang sangat rapat.
+                    </div>
+                </div>
+
+                <!-- Q4 -->
+                <div class="bg-slate-50 border border-slate-200 rounded-2xl overflow-hidden transition-all duration-300">
+                    <button class="faq-toggle w-full p-6 text-left flex items-center justify-between text-brand-slate font-bold text-base sm:text-lg focus:outline-none">
+                        <span>Berapa lama pengiriman?</span>
+                        <img src="https://placehold.co/40x40/1E40AF/FFFFFF.jpg?text=%E2%86%93" class="faq-icon w-5 h-5 rounded-full transition-transform duration-300" alt="Toggle Icon">
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 text-sm text-slate-600 leading-relaxed border-t border-slate-200 pt-4">
+                        Untuk pengiriman dalam kota, produk bisa sampai di hari yang sama melalui layanan instan. Sedangkan untuk wilayah luar kota/pulau biasanya memakan waktu antara 1 hingga 3 hari kerja tergantung lokasi tujuan Anda.
+                    </div>
+                </div>
+
+                <!-- Q5 -->
+                <div class="bg-slate-50 border border-slate-200 rounded-2xl overflow-hidden transition-all duration-300">
+                    <button class="faq-toggle w-full p-6 text-left flex items-center justify-between text-brand-slate font-bold text-base sm:text-lg focus:outline-none">
+                        <span>Apakah ada harga grosir?</span>
+                        <img src="https://placehold.co/40x40/1E40AF/FFFFFF.jpg?text=%E2%86%93" class="faq-icon w-5 h-5 rounded-full transition-transform duration-300" alt="Toggle Icon">
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 text-sm text-slate-600 leading-relaxed border-t border-slate-200 pt-4">
+                        Ada! Kami menyediakan kebijakan diskon khusus yang semakin besar seiring meningkatnya volume pesanan Anda. Hubungi Customer Service kami untuk informasi lengkap daftar harga berjenjang.
+                    </div>
+                </div>
+
+                <!-- Q6 -->
+                <div class="bg-slate-50 border border-slate-200 rounded-2xl overflow-hidden transition-all duration-300">
+                    <button class="faq-toggle w-full p-6 text-left flex items-center justify-between text-brand-slate font-bold text-base sm:text-lg focus:outline-none">
+                        <span>Produk tahan berapa lama?</span>
+                        <img src="https://placehold.co/40x40/1E40AF/FFFFFF.jpg?text=%E2%86%93" class="faq-icon w-5 h-5 rounded-full transition-transform duration-300" alt="Toggle Icon">
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 text-sm text-slate-600 leading-relaxed border-t border-slate-200 pt-4">
+                        Produk vakum kami dapat bertahan hingga 3 - 4 hari pada suhu ruang perjalanan, hingga 2 minggu di dalam lemari pendingin (chiller), dan hingga 3 bulan jika disimpan rapat di dalam lemari pembeku (freezer).
+                    </div>
+                </div>
+
+                <!-- Q7 -->
+                <div class="bg-slate-50 border border-slate-200 rounded-2xl overflow-hidden transition-all duration-300">
+                    <button class="faq-toggle w-full p-6 text-left flex items-center justify-between text-brand-slate font-bold text-base sm:text-lg focus:outline-none">
+                        <span>Apakah ada katalog?</span>
+                        <img src="https://placehold.co/40x40/1E40AF/FFFFFF.jpg?text=%E2%86%93" class="faq-icon w-5 h-5 rounded-full transition-transform duration-300" alt="Toggle Icon">
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 text-sm text-slate-600 leading-relaxed border-t border-slate-200 pt-4">
+                        Kami menyediakan e-katalog digital yang interaktif dan modern berisi detail seluruh lini produk beserta spesifikasi berat, isi, dan harganya yang dapat Anda unduh secara instan setelah menghubungi admin WhatsApp kami.
+                    </div>
+                </div>
+
+                <!-- Q8 -->
+                <div class="bg-slate-50 border border-slate-200 rounded-2xl overflow-hidden transition-all duration-300">
+                    <button class="faq-toggle w-full p-6 text-left flex items-center justify-between text-brand-slate font-bold text-base sm:text-lg focus:outline-none">
+                        <span>Bagaimana cara order?</span>
+                        <img src="https://placehold.co/40x40/1E40AF/FFFFFF.jpg?text=%E2%86%93" class="faq-icon w-5 h-5 rounded-full transition-transform duration-300" alt="Toggle Icon">
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 text-sm text-slate-600 leading-relaxed border-t border-slate-200 pt-4">
+                        Sangat mudah! Anda cukup menekan tombol WhatsApp atau mengisi form pengajuan lead di atas. Tim asisten kami akan langsung memandu Anda dari pencatatan pesanan, konfirmasi pembayaran, hingga update resi pengiriman logistik.
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="bg-brand-slate border-t border-slate-800 py-16 text-gray-400">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-12 gap-12">
+            
+            <div class="md:col-span-5 space-y-4 text-center md:text-left">
+                <div class="flex items-center gap-3 justify-center md:justify-start">
+                    <div class="w-10 h-10 rounded-xl overflow-hidden shadow-md border-2 border-brand-red flex items-center justify-center bg-brand-light">
+                        <img src="https://cdn.phototourl.com/free/2026-06-26-b482edef-6503-4c0f-9649-36f82ab9be3a.png" alt="Logo Siomay Cuanki Janda" class="w-full h-full object-cover">
+                    </div>
+                    <span class="text-lg font-extrabold tracking-wider text-white">SIOMAY CUANKI <span class="text-brand-red">JANDA</span></span>
+                </div>
+                <p class="text-xs sm:text-sm text-gray-400 leading-relaxed max-w-sm mx-auto md:mx-0">
+                    Produsen dan distributor utama produk Siomay dan Cuanki berstandar mutu tinggi. Berdedikasi menghadirkan cita rasa tradisional otentik terbaik untuk keluarga tercinta dan mitra usaha kuliner Anda.
+                </p>
+                <div class="flex items-center justify-center md:justify-start gap-4 pt-2">
+                    <span class="text-xs font-semibold text-white">Kontak Resmi WA:</span>
+                    <a href="tel:0895332494484" class="text-xs text-brand-red font-bold hover:underline">0895332494484</a>
+                </div>
+            </div>
+
+            <div class="md:col-span-3 space-y-4 text-center md:text-left">
+                <h4 class="text-sm font-bold text-white uppercase tracking-wider">Navigasi Link</h4>
+                <ul class="space-y-2.5 text-xs">
+                    <li><a href="#hero" class="hover:text-brand-red transition">Beranda Utama</a></li>
+                    <li><a href="#masalah" class="hover:text-brand-red transition">Masalah Supplier</a></li>
+                    <li><a href="#keunggulan" class="hover:text-brand-red transition">Komitmen Mutu</a></li>
+                    <li><a href="#produk" class="hover:text-brand-red transition">Pilihan Katalog</a></li>
+                    <li><a href="#testimoni" class="hover:text-brand-red transition">Testimoni Klien</a></li>
+                </ul>
+            </div>
+
+            <div class="md:col-span-4 space-y-4 text-center md:text-left">
+                <h4 class="text-sm font-bold text-white uppercase tracking-wider">Tautan Toko & Kontak</h4>
+                <ul class="space-y-2.5 text-xs">
+                    <li>
+                        <a href="https://wa.me/62895332494484" target="_blank" rel="noopener" class="hover:text-brand-red transition flex items-center justify-center md:justify-start gap-2">
+                            <img src="https://placehold.co/40x40/DC2626/FFFFFF.jpg?text=WA" class="w-4 h-4 rounded-full" alt="Icon WA"> Hubungi WhatsApp Resmi
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://s.shopee.co.id/1Vx42bziFA" target="_blank" rel="noopener" class="hover:text-brand-red transition flex items-center justify-center md:justify-start gap-2">
+                            <img src="https://placehold.co/40x40/EE4D2D/FFFFFF.jpg?text=SP" class="w-4 h-4 rounded-full" alt="Icon Shopee"> Toko Resmi Shopee
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://vt.tokopedia.com/t/ZS96FhwGJQp5u-QAeMe/" target="_blank" rel="noopener" class="hover:text-brand-red transition flex items-center justify-center md:justify-start gap-2">
+                            <img src="https://placehold.co/40x40/000000/FFFFFF.jpg?text=TT" class="w-4 h-4 rounded-full" alt="Icon TikTok"> Toko Resmi TikTok Shop
+                        </a>
+                    </li>
+                </ul>
+                <div class="pt-4 border-t border-slate-800 text-[10px] text-gray-500 text-center md:text-left">
+                    Diproduksi higienis harian & dikemas secara profesional bersertifikat.
+                </div>
+            </div>
+
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
+            <p class="text-center sm:text-left">&copy; 2026 SIOMAY CUANKI JANDA. Seluruh Hak Cipta Dilindungi.</p>
+            <div class="flex items-center gap-6">
+                <span class="text-gray-500 hover:text-white transition cursor-pointer">Syarat & Ketentuan</span>
+                <span class="text-gray-500 hover:text-white transition cursor-pointer">Kebijakan Privasi</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOAT WHATSAPP BUTTON (FOR INSTANT CUSTOMER CHAT) -->
+    <a href="https://wa.me/62895332494484" target="_blank" rel="noopener" class="fixed bottom-24 right-6 z-40 bg-[#25D366] hover:bg-[#20ba5a] text-white p-4 rounded-full shadow-2xl flex items-center justify-center transition-all duration-300 hover:scale-110 group" aria-label="Hubungi WhatsApp">
+        <svg class="w-7 h-7 fill-white text-transparent group-hover:rotate-12 transition duration-300" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.513 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.717-1.456L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.413 9.863-9.847.001-2.63-1.019-5.101-2.871-6.958C16.612 1.943 14.136.924 11.517.924c-5.44 0-9.866 4.415-9.869 9.849-.001 1.83.5 3.61 1.447 5.17l-.988 3.61 3.71-.977zm11.597-6.907c-.3-.149-1.774-.875-2.048-.974-.274-.1-.474-.149-.674.15-.2.299-.774.974-.949 1.173-.174.199-.349.224-.649.075-.3-.15-1.266-.467-2.41-1.487-.889-.793-1.49-1.772-1.664-2.071-.174-.299-.018-.461.13-.61.135-.133.3-.349.45-.523.15-.174.2-.299.3-.499.1-.2.05-.374-.025-.524-.075-.15-.674-1.623-.924-2.224-.244-.589-.493-.51-.674-.519-.174-.009-.374-.01-.574-.01-.2 0-.524.075-.798.374-.274.299-1.047 1.022-1.047 2.492 0 1.47 1.072 2.887 1.222 3.086.15.199 2.11 3.22 5.11 4.516.713.308 1.27.492 1.704.63.717.228 1.368.196 1.884.119.574-.085 1.774-.726 2.023-1.428.249-.699.249-1.295.174-1.418-.075-.123-.274-.199-.574-.349z"/>
+        </svg>
+    </a>
+
+    <!-- STICKY ACTION NAV BAR MOBILE (ALWAYS CONVERT ON THE GO) -->
+    <div class="fixed bottom-0 left-0 right-0 z-40 bg-white border-t border-slate-200 p-3 flex sm:hidden items-center justify-between gap-3 shadow-xl backdrop-blur-md">
+        <a href="https://wa.me/62895332494484" target="_blank" rel="noopener" class="flex-1 bg-[#25D366] hover:bg-[#20ba5a] text-white text-xs font-black py-3 px-1 rounded-xl text-center flex items-center justify-center gap-1.5 shadow-md">
+            WHATSAPP
+        </a>
+        <a href="#form-lead" class="flex-1 bg-gradient-accent text-white text-xs font-black py-3 px-1 rounded-xl text-center flex items-center justify-center gap-1.5 shadow-md">
+            AJUKAN MITRA
+        </a>
+    </div>
+
+    <!-- MODERN VANILLA JAVASCRIPT FOR ACCORDION, FORM VALIDATION, AND PREMIUM INTERACTIVE EFFECTS -->
+    <script>
+        // FAQ Accordion Toggle Logic
+        const faqToggles = document.querySelectorAll('.faq-toggle');
+        
+        faqToggles.forEach(toggle => {
+            toggle.addEventListener('click', () => {
+                const content = toggle.nextElementSibling;
+                const icon = toggle.querySelector('.faq-icon');
+                
+                // Toggle active content visibility
+                if (content.classList.contains('hidden')) {
+                    content.classList.remove('hidden');
+                    icon.style.transform = 'rotate(180deg)';
+                    toggle.parentElement.classList.add('border-brand-blue');
+                    toggle.parentElement.classList.remove('border-slate-200');
+                } else {
+                    content.classList.add('hidden');
+                    icon.style.transform = 'rotate(0deg)';
+                    toggle.parentElement.classList.remove('border-brand-blue');
+                    toggle.parentElement.classList.add('border-slate-200');
+                }
+            });
+        });
+
+        // Form Validation & Interaction
+        const leadForm = document.getElementById('leadForm');
+        const formFeedback = document.getElementById('form-feedback');
+
+        // Validation constraints helper
+        const validators = {
+            nama: (val) => val.trim().length > 2,
+            wa: (val) => {
+                const cleanNum = val.replace(/[^0-9]/g, '');
+                return cleanNum.length >= 10;
+            },
+            email: (val) => {
+                const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                return re.test(String(val).toLowerCase());
+            }
+        };
+
+        leadForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            // Collect Form Inputs
+            const inputNama = document.getElementById('nama');
+            const inputWa = document.getElementById('wa');
+            const inputEmail = document.getElementById('email');
+
+            const errorNama = document.getElementById('error-nama');
+            const errorWa = document.getElementById('error-wa');
+            const errorEmail = document.getElementById('error-email');
+
+            // Reset Errors
+            let isFormValid = true;
+            
+            errorNama.classList.add('hidden');
+            errorWa.classList.add('hidden');
+            errorEmail.classList.add('hidden');
+
+            inputNama.classList.remove('border-red-500');
+            inputWa.classList.remove('border-red-500');
+            inputEmail.classList.remove('border-red-500');
+
+            // Validate Nama
+            if (!validators.nama(inputNama.value)) {
+                errorNama.classList.remove('hidden');
+                inputNama.classList.add('border-red-500');
+                isFormValid = false;
+            }
+
+            // Validate WA
+            if (!validators.wa(inputWa.value)) {
+                errorWa.classList.remove('hidden');
+                inputWa.classList.add('border-red-500');
+                isFormValid = false;
+            }
+
+            // Validate Email
+            if (!validators.email(inputEmail.value)) {
+                errorEmail.classList.remove('hidden');
+                inputEmail.classList.add('border-red-500');
+                isFormValid = false;
+            }
+
+            // If Valid, show custom success message and reset the form
+            if (isFormValid) {
+                leadForm.classList.add('hidden');
+                formFeedback.classList.remove('hidden');
+                
+                // Track lead in console
+                console.log('Lead Captured:', {
+                    nama: inputNama.value,
+                    wa: inputWa.value,
+                    email: inputEmail.value,
+                    timestamp: new Date().toISOString()
+                });
+                
+                // Reset form inputs
+                leadForm.reset();
+            }
+        });
+
+        // Navigation background shadow on scroll
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('shadow-md');
+            } else {
+                header.classList.remove('shadow-md');
+            }
+        });
+    </script>
+</body>
+</html>
